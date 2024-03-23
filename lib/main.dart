@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:allen/home_page.dart';
+import 'package:allen/pallet.dart';
 
 
 void main() {
@@ -13,11 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData.light(useMaterial3: true).copyWith(
+        scaffoldBackgroundColor:Pallete.whiteColor
       ),
+      title: 'Allen',
       home: const HomePage(),
     );
   }
