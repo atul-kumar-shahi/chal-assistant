@@ -1,1 +1,2 @@
-const  openAIAPIKey='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';
+const  openAIAPIKey='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';
+const geminiAPIkey='AIzaSyB3Ler_o8yvWi4VEp2HPJ0zDSDHX8BfP_E';
