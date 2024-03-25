@@ -1,8 +1,4 @@
 import 'dart:convert';
-
-import 'package:allen/chat_box.dart';
-import 'package:allen/pallet.dart';
-import 'package:allen/secret.dart';
 import 'package:http/http.dart' as http;
 
 class OpenAIServices{
